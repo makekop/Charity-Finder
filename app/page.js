@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
     return (
         <div className="flex min-h-screen items-center justify-center bg-zinc-200 font-sans dark:bg-black">
-            <Card className="w-full max-w-sm p-4">
+            <Card className="w-full max-w-sm shadow-lg bg-white p-8 transition delay-100 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-xl">
                 <CardHeader className="items-center justify-center">
                     <Image
                         src="https://mieli.fi/wp-content/uploads/2021/06/MIELI-logo-1-2460x790.png"
@@ -20,7 +20,7 @@ export default function Home() {
                         height={800}
                         alt="Company Logo"
                     />
-                    <CardTitle className="text-xl font-bold">
+                    <CardTitle className="text-xl font-bold justify-items-start">
                         Mieli Ry
                     </CardTitle>
                 </CardHeader>
@@ -31,9 +31,10 @@ export default function Home() {
                     mielenterveyteen. MIELI ry on maailman vanhin
                     mielenterveysalan kansalaisjärjestö.
                 </CardContent>
-                <CardFooter>
-                    <CardAction className="">
-                        <Button>Go To Verkkosivut</Button>
+                <CardFooter className="">
+                    <CardAction className="grid grid-cols-2 gap-4 md:auto-cols-min">
+                        <Button>Verkkosivut</Button>
+                        <Button>Lahjoita</Button>
                     </CardAction>
                 </CardFooter>
             </Card>

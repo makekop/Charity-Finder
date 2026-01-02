@@ -1,6 +1,4 @@
-"use client";
-import { useState } from "react";
-import { data } from "../app/data";
+import { data } from "../../app/data";
 import {
     Card,
     CardTitle,
@@ -13,15 +11,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-export default function CompanyCard({
-    companyTitle,
-    companyLogo,
-    websiteURL,
-    donateURL,
-    about,
-}) {
-    const [companies, setCompanies] = useState(data);
-
+export default function CompanyCard() {
     return (
         <div>
             {data.map((item) => (

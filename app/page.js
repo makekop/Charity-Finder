@@ -1,5 +1,4 @@
-import CompanyCard from "@/components/companycards";
-import Map from "@/components/ui/map";
+import CompanyCard from "@/components/ui/companycards";
 
 export default function Home() {
     return (

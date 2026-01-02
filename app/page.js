@@ -9,6 +9,7 @@ import {
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { data } from "./data";
 
 export default function Home() {
     return (
@@ -35,15 +36,12 @@ export default function Home() {
                 <CardFooter className="">
                     <CardAction className="grid grid-cols-2 gap-4 md:auto-cols-min">
                         <Button>
-                            <Link
-                                target="_blanK"
-                                href="https://mielilahjoitus.fi/"
-                            >
+                            <Link target="_blanK" href={data[0].donateURL}>
                                 Verkkosivut
                             </Link>
                         </Button>
                         <Button>
-                            <Link target="_blank" href="https://mieli.fi/">
+                            <Link target="_blank" href={data[0].websiteURL}>
                                 Lahjoita
                             </Link>
                         </Button>

@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/card";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -33,8 +34,19 @@ export default function Home() {
                 </CardContent>
                 <CardFooter className="">
                     <CardAction className="grid grid-cols-2 gap-4 md:auto-cols-min">
-                        <Button>Verkkosivut</Button>
-                        <Button>Lahjoita</Button>
+                        <Button>
+                            <Link
+                                target="_blanK"
+                                href="https://mielilahjoitus.fi/"
+                            >
+                                Verkkosivut
+                            </Link>
+                        </Button>
+                        <Button>
+                            <Link target="_blank" href="https://mieli.fi/">
+                                Lahjoita
+                            </Link>
+                        </Button>
                     </CardAction>
                 </CardFooter>
             </Card>

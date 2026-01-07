@@ -16,19 +16,21 @@ export default function CompanyCard() {
         <div>
             {data.map((item) => (
                 <div key={item.companyTitle}>
-                    <Card className="w-full max-w-sm shadow-lg bg-white p-8 transition delay-100 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-xl">
+                    <Card className="w-full sm:w-[380px] md:h-[560px] max-w-sm shadow-lg bg-white p-6 m-6 transition delay-100 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-xl overflow-auto">
                         <CardHeader className="">
+                            {" "}
                             <Image
                                 src={item.companyLogo}
-                                width={400}
-                                height={400}
+                                width={200}
+                                height={200}
                                 alt="Company Logo"
+                                className="object-contain w-80 h-40 object-center"
                             />
                             <CardTitle className="text-xl font-bold justify-items-start">
                                 {item.companyTitle}
                             </CardTitle>
                         </CardHeader>
-                        <CardContent className="text-wrap">
+                        <CardContent className="text-wrap mb-2">
                             {item.about}
                         </CardContent>
                         <CardFooter>

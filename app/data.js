@@ -1,5 +1,3 @@
-import { compileFunction } from "vm";
-
 export const data = [
     {
         companyTitle: "Mieli Ry",
@@ -27,12 +25,11 @@ export const data = [
         about: "UNICEF (YK:n lastenjärjestö) on maailman suurin ja vaikutusvaltaisin lastenjärjestö, joka puolustaa lapsen oikeuksia ja edistää heikoimmassa asemassa olevien lasten hyvinvointia kaikkialla maailmassa rauhan ja kriisien aikana, huolehtien heidän terveyden, koulutuksen ja suojelun perustarpeista",
     },
     {
-        companyTitle: "Uniceffi",
+        companyTitle: "HelsinkiMissio",
         companyLogo:
-            "https://upload.wikimedia.org/wikipedia/commons/f/fb/UNICEF_Logo_%28cropped%29.png",
-        websiteURL: "https://www.unicef.fi/",
-        donateURL:
-            "https://www.unicef.fi/tue-lapsia/lahjoita/kuukausilahjoitus/",
-        about: "UNICEF (YK:n lastenjärjestö) on maailman suurin ja vaikutusvaltaisin lastenjärjestö, joka puolustaa lapsen oikeuksia ja edistää heikoimmassa asemassa olevien lasten hyvinvointia kaikkialla maailmassa rauhan ja kriisien aikana, huolehtien heidän terveyden, koulutuksen ja suojelun perustarpeista",
+            "https://www.helsinkimissio.fi/wp-content/uploads/2022/07/cropped-Helsinkimissio_sin_logo.png",
+        websiteURL: "https://www.helsinkimissio.fi/",
+        donateURL: "https://www.helsinkimissio.fi/lahjoita/",
+        about: "HelsinkiMissio on poliittisesti ja uskonnollisesti sitoutumaton sosiaalialan järjestö, joka toimii yksinäisyyden vähentämiseksi ja yhteisöllisyyden vahvistamiseksi. Yhteisö koostuu asiantuntijoista ja vapaaehtoisista, kohtaamme/autamme ja tuemme vuosittain kymmeniä tuhansia ihmisiä. Tarjoamme valtakunnallisia palveluja sekä mahdollisuuksia osallistua vapaaehtoisena. Kutsumme kaikki mukaan tekoihin yksinäisyyttä vastaan — yhdessä yksinäisyys voitetaan.",
     },
 ];

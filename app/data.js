@@ -26,4 +26,13 @@ export const data = [
             "https://www.unicef.fi/tue-lapsia/lahjoita/kuukausilahjoitus/",
         about: "UNICEF (YK:n lastenjärjestö) on maailman suurin ja vaikutusvaltaisin lastenjärjestö, joka puolustaa lapsen oikeuksia ja edistää heikoimmassa asemassa olevien lasten hyvinvointia kaikkialla maailmassa rauhan ja kriisien aikana, huolehtien heidän terveyden, koulutuksen ja suojelun perustarpeista",
     },
+    {
+        companyTitle: "Uniceffi",
+        companyLogo:
+            "https://upload.wikimedia.org/wikipedia/commons/f/fb/UNICEF_Logo_%28cropped%29.png",
+        websiteURL: "https://www.unicef.fi/",
+        donateURL:
+            "https://www.unicef.fi/tue-lapsia/lahjoita/kuukausilahjoitus/",
+        about: "UNICEF (YK:n lastenjärjestö) on maailman suurin ja vaikutusvaltaisin lastenjärjestö, joka puolustaa lapsen oikeuksia ja edistää heikoimmassa asemassa olevien lasten hyvinvointia kaikkialla maailmassa rauhan ja kriisien aikana, huolehtien heidän terveyden, koulutuksen ja suojelun perustarpeista",
+    },
 ];

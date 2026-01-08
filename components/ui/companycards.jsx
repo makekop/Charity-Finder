@@ -13,10 +13,10 @@ import Link from "next/link";
 
 export default function CompanyCard() {
     return (
-        <div className="grid gap-y-8 gap-x-0 sm:grid-cols-2 lg:grid-cols-3 bg-zinc-200 font-sans dark:bg-black">
+        <div className="grid gap-y-8 gap-x-0 sm:grid-cols-2 lg:grid-cols-3 bg-zinc-200 font-sans dark:bg-black p-20">
             {data.map((item) => (
                 <div key={item.companyTitle}>
-                    <Card className="h-full flex flex-col rounded-2xl p-8 bg-white m-4">
+                    <Card className="h-full flex flex-col rounded-2xl p-8 bg-white m-4 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-102 hover:bg-gray-100">
                         <CardHeader className="flex flex-col items-center">
                             <Image
                                 src={item.companyLogo}

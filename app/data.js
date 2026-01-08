@@ -2,7 +2,7 @@ export const data = [
     {
         companyTitle: "Mieli Ry",
         companyLogo:
-            "https://mieli.fi/wp-content/uploads/2021/06/MIELI-logo-1-2460x790.png",
+            "https://www.sttinfo.fi/data/images/00929/66766af4-37cc-4355-a7a5-6e654eb4fcc8.png",
         websiteURL: "https://mieli.fi/",
         donateURL: "https://mielilahjoitus.fi/",
         about: "MIELI Suomen Mielenterveys ry:n perustehtävä on mielenterveyden edistäminen ja ongelmien ehkäisy. Puolustamme kaikkien yhtäläistä oikeutta hyvään mielenterveyteen. MIELI ry on maailman vanhin mielenterveysalan kansalaisjärjestö",
@@ -31,5 +31,13 @@ export const data = [
         websiteURL: "https://www.helsinkimissio.fi/",
         donateURL: "https://www.helsinkimissio.fi/lahjoita/",
         about: "HelsinkiMissio on poliittisesti ja uskonnollisesti sitoutumaton sosiaalialan järjestö, joka toimii yksinäisyyden vähentämiseksi ja yhteisöllisyyden vahvistamiseksi. Yhteisö koostuu asiantuntijoista ja vapaaehtoisista, kohtaamme/autamme ja tuemme vuosittain kymmeniä tuhansia ihmisiä. Tarjoamme valtakunnallisia palveluja sekä mahdollisuuksia osallistua vapaaehtoisena. Kutsumme kaikki mukaan tekoihin yksinäisyyttä vastaan — yhdessä yksinäisyys voitetaan.",
+    },
+    {
+        companyTitle: "SEY",
+        companyLogo:
+            "https://sey.fi/wp-content/uploads/2019/12/SEY_SES_logo_RGB-1-1280x525.png",
+        websiteURL: "https://sey.fi/sey/",
+        donateURL: "https://sey.fi/lahjoita/",
+        about: "SEY Suomen eläinsuojelu on Suomen suurin eläinsuojelujärjestö ja eläinsuojelun asiantuntija. SEY on toiminut suomalaisen eläinsuojelun eturintamassa jo yli sadan vuoden ajan. Se on paras mahdollinen todiste siitä, että muutos parempaan on mahdollinen jatkossakin.",
     },
 ];

@@ -23,7 +23,7 @@ export default function CompanyCard({ company }) {
                     alt={`${company.companyTitle} Logo`}
                     className="object-contain w-80 h-40 mx-auto"
                 />
-                <CardTitle className="font-bold mt-2 text-xl text-center">
+                <CardTitle className="font-bold mt-2 text-xl ">
                     {company.companyTitle}
                 </CardTitle>
             </CardHeader>

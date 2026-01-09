@@ -1,7 +1,7 @@
-export default function TopMenu() {
+export default function Footer() {
     const titles = ["KOTI", "MEISTÄ", "FAQ"];
     return (
-        <div className="flex items-center justify-center gap-6 text-3xl m-6 font-semibold">
+        <div className="flex flex-row justify-center gap-12 text-3xl m-8 font-bold">
             {titles.map((title) => (
                 <p key={title}>{title}</p>
             ))}

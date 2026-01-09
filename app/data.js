@@ -40,4 +40,13 @@ export const data = [
         donateURL: "https://sey.fi/lahjoita/",
         about: "SEY Suomen eläinsuojelu on Suomen suurin eläinsuojelujärjestö ja eläinsuojelun asiantuntija. SEY on toiminut suomalaisen eläinsuojelun eturintamassa jo yli sadan vuoden ajan. Se on paras mahdollinen todiste siitä, että muutos parempaan on mahdollinen jatkossakin.",
     },
+    {
+        charityTitle: "Hope",
+        charityLogo:
+            "https://joulupuu.org/wp-content/uploads/2022/10/hope-logo-blue-1.png",
+        websiteURL: "https://hopeyhdistys.fi/",
+        donateURL:
+            "https://hopeyhdistys.fi/haluan-auttaa/haluan-lahjoittaa-rahaa/",
+        about: "Hope toimii vapaaehtoisvoimin yhdessä yhteiseksi hyväksi. Teemme avullasi todeksi unelmaa siitä, että lapsilla olisi Suomessa tasa-arvoisemmat mahdollisuudet hyvään arkeen. Jaamme vähävaraisille ja kriisin kokeneille perheille konkreettisia vaate- ja tavaralahjoituksia. Lisäksi tarjoamme lapsille ja nuorille harrastustukea ja vapaa-ajan elämyksiä.",
+    },
 ];

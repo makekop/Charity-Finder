@@ -1,4 +1,4 @@
-# Charity Finder
+# Charity Finder (WIP)
 
 Charity Finder is a simple web application that helps users discover charities and easily navigate to their websites or donation pages. The goal of the project is to make it easier to support meaningful causes by improving discoverability and accessibility.
 
